@@ -12,5 +12,5 @@ main() {
     default: c--;
 
     }
-    printf("%d", c); // -10정답
+    printf("%d", c);
 }
