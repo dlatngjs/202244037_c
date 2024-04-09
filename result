@@ -3,16 +3,16 @@
 int main(void) {
     int c = 1;
     switch (3) {
-    case 1:c += 3; //4
-    case 2:c++; //5
-    case 3:c = 0; //0
-    case 4:--c;//-1
-    case 5:c += 3; //2
-    case 6:c -= 11;//-9
-    default: c--;// -10
+    case 1:c += 3; 
+    case 2:c++; 
+    case 3:c = 0; 
+    case 4:--c;
+    case 5:c += 3; 
+    case 6:c -= 11;
+    default: c--;
 
     }
-    printf("%d", c); // -10정답
+    printf("%d", c);
 
     return 0;
 }
