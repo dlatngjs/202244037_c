@@ -3,15 +3,15 @@
 int main(void) {
     int c = 1;
     switch (3) {
-    case 1:c += 3;
-    case 2:c++;
-    case 3:c = 0;
-    case 4:--c;
-    case 5:c += 3;
-    case 6:c -= 11;
-    default: c--;
+    case 1:c += 3; 
+    case 2:c++; 
+    case 3:c = 0; 
+    case 4:--c; 
+    case 5:c += 3; 
+    case 6:c -= 11; 
+    default: c--; 
         if (c < 0) {
-            c = c + 10;
+            c += 10;
         }
         else
             c++;
