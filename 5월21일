@@ -1,0 +1,21 @@
+#include <stdio.h>
+ int main(){
+     int value;
+     int MAX = 0, cnt = 0;
+     scanf("%d",&value);
+     int A[value];
+     for(int i = 0; i <value; i ++)
+     {
+         scanf("%d", &A[i]);
+     }
+     for(int i = value-1; i>=0;i--)
+     {
+         if(MAX < A[i])
+         {
+             MAX = A[i];
+             cnt ++;
+         }
+     }
+     printf("%d",cnt);
+     return 0;
+ }
